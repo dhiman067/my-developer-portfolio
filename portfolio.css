@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: "Open Sans", sans-serif;
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+
+/* developer-portfolio-header  start*/
+.developer-portfolio-header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+}
+
+.developer-portfolio-header-navbar{
+    display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.developer-portfolio-header-navbar a{
+    text-decoration: none;
+}
+
+.common-btn{
+    padding: 20px 30px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FD6E0A;
+    color: azure;
+}
+
+.contact-now-btn{
+     padding: 20px 30px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+   color: #FD6E0A;
+   border-style:double;
+   border-color: #FD6E0A;
+     background-color: white;
+     margin-left: 2rem;
+     
+    
+}
+
+.common-btn:hover,
+.contact-now-btn:hover{
+   background-color: orange;
+    cursor: pointer;
+}
+
+.developer-portfolio-info{
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    /* padding: 0 13rem; */
+          
+}
+
+.developer-portfolio-info-contact{
+ display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 0 13rem; */
+   
+}
+
+.background-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 500px;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+/* .background-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */
+
+
+
+
+/* .developer-portfolio-header  end*/
+
+
+
+
+
+
+
+/* about-me  start*/
+
+.about-me{
+    text-align: center;
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-me-info{
+    display: flex;
+    justify-content: space-around;
+   padding: 2rem;
+   font-size: large;
+}
+/* about-me  end*/
+
+
+
+
+/* resume section start */
+
+
+
+.resume-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.my-resume-experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.my-resume{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
+.resume-section{
+    padding: 5rem;
+}
+
+
+.my-experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.my-resume-experiences h6,p {
+    color:#757575
+}
+
+/* resume section end */
