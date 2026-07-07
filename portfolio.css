@@ -87,8 +87,8 @@
     min-height: 500px;
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
+    background-position:right bottom;
+    background-size:contain;
 }
 
 /* .background-img img{
